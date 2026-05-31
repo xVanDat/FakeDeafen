@@ -17,10 +17,10 @@ A userplugin for Vencord/Equicord that simulates the "Deafen" feature in Discord
 
 1. Place the `fakeDeafen` folder into the `src/userplugins/` directory of Vencord/Equicord.
 2. Rebuild the application (`pnpm build`).
-3. Inject into Discord if you haven't already. (`pnpm inject`)
+3. Inject into Discord if you haven't already. (`pnpm inject`) If you already injected to Discord, just reload Discord again (Ctrl + R)
 4. Enable the "FakeDeafen" plugin in your Vencord/Equicord settings.
 
 ## Disclaimers
 
 - This plugin was developed with the assistance of AI. As such, it will not be submitted to the official Vencord/Equicord plugin repositories, and there may be minor unforeseen issues or bugs. Use it at your own discretion.
-- This is a local deafen. Other users in the voice channel will not see the red headset icon next to your name.
+- This is a local deafen. Other users in the voice channel will not see the deafen icon next to your name.
