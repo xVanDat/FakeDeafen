@@ -13,11 +13,12 @@ A userplugin for Vencord/Equicord that simulates the "Deafen" feature in Discord
 
 ## How to install
 
-**⚠️ Important Note:** You **must** build Equicord from source to use custom userplugins.
+**⚠️ Important Note:** You **must** build Vencord (or Equicord) from source to use custom userplugins.
 
-1. Place the `fakeDeafen` folder into the `src/userplugins/` (or `src/plugins/`) directory of Vencord/Equicord.
+1. Place the `fakeDeafen` folder into the `src/userplugins/` directory of Vencord/Equicord.
 2. Rebuild the application (`pnpm build`).
-3. Enable the "FakeDeafen" plugin in your Vencord/Equicord settings.
+3. Inject into Discord if you haven't already. (`pnpm inject`)
+4. Enable the "FakeDeafen" plugin in your Vencord/Equicord settings.
 
 ## Disclaimers
 
